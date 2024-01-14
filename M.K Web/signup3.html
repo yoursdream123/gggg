@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Signup Form</title>
+    </head>
+    <style>
+        .Curvedbox{
+            height: 550px;
+            width: 300px;
+            background-color: rgb(153, 68, 233);
+            color: whitesmoke;
+            border: 3px solid white;
+            padding: 50px;
+            text-align: justify;
+            border-radius: 50px;
+            font-size: 15px;
+        }
+        input[type="text"],[type="Text"]{
+          width: 35%;
+          margin: 10px;
+          margin-left: 2px;
+          height: 30px;
+          border: 2px solid white;
+          border-radius: 15px;
+        }
+        input[type="Address"]{
+          width: 75%;
+          margin: 0px;
+          margin-left: 2px;
+          height: 30px;
+          border: 2px solid white;
+          border-radius: 15px;
+        }
+        input[type="password"]{
+          width: 75%;
+          margin: 0px;
+          margin-left: 2px;
+          height: 30px;
+          border: 2px solid white;
+          border-radius: 15px;
+        }
+        input[type="button"]{
+          background-color: rgb(50, 50, 160);
+          width: 50%;
+          margin: 0px;
+          margin-left: 2px;
+          border: 1px white;
+          height: 35px;
+          border-radius: 15px;
+          color:azure;
+          font-size: 20px;
+        }
+        input[type="link button"]{
+            width: 35%;
+            margin: 0px;
+            margin-left: 2px;
+            border: 1px solid white;
+            height: 31px;
+            border-radius: 15px;
+            color: black;
+            text-align: center;
+            font-size: 20px;
+        }
+        .login_btn{
+
+            text-decoration: none;
+            font-size: 30px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 40px;
+
+        }
+        .login_btn:hover{
+            background-color: blue;
+            color: whitett;
+        }
+
+        
+    </style>
+    <body style="background-color: rgb(67, 18, 112);">
+        <center><h1 style="font-size: 60px; color: azure;">Sign Up Here</h1></center>
+        <center><div class="Curvedbox">
+        <form action="">
+            <div>
+                <input type="text" name="" id="" placeholder="First Name"/>
+                <input type="Text" name="" id="" placeholder="Last Name"/>
+            </div>
+            
+            <p>
+                Gender:
+                <input type="radio" name="gender" value="m"/>Male
+                <input type="radio" name="gender" value="f"/>Female
+            </p>
+            <p>
+                <input type="Address" name="E Mail" size="20" maxlength="30" placeholder="E Mail Address"/>
+            </p>
+            <p>
+               <input type="password" name="password" size="20" maxlength="30" placeholder="Password"/>
+            </p>
+            <p>
+                <input type="password" name="Re-enter Password" size="20" maxlength="30" placeholder="Re-enter Password"/>
+            </p>
+            <p>
+                Nationality:
+                <select name="countries">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Canada">Canada</option>
+                    <option value="USA">USA</option>
+                    <option value="England">England</option>
+                    <option value="Austrailia">Austrailia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Cuba">Cuba</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                </select>
+            </p>
+            <p>
+                Interest Activity:
+            </p>
+            <p>
+                <input type="checkbox" name="interests" value="crc"/>Cricket
+                <input type="checkbox" name="interests" value="ftb"/>Football
+                <input type="checkbox" name="interests" value="tenn"/>Tennis
+            </p>
+            <p>
+                <input type="checkbox" name="interests" value="hck"/>Hockey
+                <input type="checkbox" name="interests" value="Trv"/>Travelling
+                <input type="checkbox" name="interests" value="Cod"/>Coding
+            </p>
+            <p>
+                Others:
+                <input type="others" name="others" size="20" maxlength="30"/>
+            </p>
+            <p>
+                Tell something about you:
+            </p>
+                <textarea name="comments" rows="4" cols="30" placeholder="Enter your comments...."></textarea>
+                <br />
+                <br />
+                <div>
+                <input type="button" name="" value="Sign Up"/>
+                <a href="" class="login_btn">Login</a>
+                </div>
+        </form>
+        </div></center>
+    </body>
+</html>

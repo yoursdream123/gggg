@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Signup Form</title>
+    </head>
+    <style>
+        .Curvedbox{
+            height: 480px;
+            width: 300px;
+            background-color: rgb(83, 8, 8);
+            color: whitesmoke;
+            border: 3px solid white;
+            padding: 50px;
+            text-align: justify;
+            border-radius: 50px;
+            font-size: 15px;
+        }
+    </style>
+    <body style="background-color: rgb(58, 9, 9);">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+        <center><h1 style="color: azure; font-size: 50px;">Signup Form</h1></center>
+        <center><div class="Curvedbox">
+        <form action="https://www.example.com/login.php">
+            <p>
+                First name:
+                <input type="text" name="firstname" size="15" maxlength="30"/>
+            </p>
+                <p>
+                Last name:
+                    <input type="text" name="lastname" size="15" maxlength="30"/>
+                </p>
+            
+            <p>
+                Gender:
+                <input type="radio" name="gender" value="m"/>Male
+                <input type="radio" name="gender" value="f"/>Female
+            </p>
+            
+            <p>
+                Nationality:
+                <select name="countries">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Canada">Canada</option>
+                    <option value="USA">USA</option>
+                    <option value="England">England</option>
+                    <option value="Austrailia">Austrailia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Cuba">Cuba</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                </select>
+            </p>
+            
+            <p>
+                Password:
+               <input type="password" name="password" size="15" maxlength="30"/>
+            </p>
+
+            <p>
+                Re-enter Password:
+                <input type="password" name="password" size="15" maxlength="30"/>
+            </p>
+
+            <p>
+                Hobbies:
+                <input type="checkbox" name="interests" value="crc"/>Cricket
+                <input type="checkbox" name="interests" value="ftb"/>Football
+                <input type="checkbox" name="interests" value="tenn"/>Tennis
+                <input type="checkbox" name="interests" value="hck"/>Hockey
+            </p>
+
+            <p>
+                Comments:
+                </p>
+                <textarea name="comments" rows="4" cols="30">Enter your comments....</textarea>
+        
+                <p>
+                    Upload Profile Picture:
+                </p>
+                <input type="file" name="dp"/>
+                <br />
+                <br />
+                <input type="submit" value="upload">
+
+                <input type="submit"/>
+            </form>
+        </div></center>
+    </body>
+</html>

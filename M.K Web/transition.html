@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: ease;
+        }
+        .a:hover{
+            height: 200px;
+            width: 200px;
+        }
+        .b{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            transition-property: height;
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
+        }
+        .b:hover{
+            height: 200px;
+            width: 200px;
+        }
+        .c{
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            transition-property: width height;
+            transition-duration: 2s;
+            transition-timing-function: ease-out;
+        }
+        .c:hover{
+            height: 200px;
+            width: 200px;
+        }
+        .d{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: linear;
+        }
+        .d:hover{
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+      Aa
+    </div>
+    <div class="b">
+        Bb
+    </div>
+    <div class="c">
+        Cc
+    </div>
+    <div class="d">
+        Dd
+    </div>
+</body>
+</html>
